@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paisaje</title>
+</head>
+<style>
+    body { background-color: aqua;}
+    nav{
+        border: yellow;
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+        background-color: yellow;
+    }
+    .triangulo
+    {
+        border:green;
+        width: 0;
+        height: 0;
+        border-right: 300px solid transparent;
+        border-top: 300px solid transparent;
+        border-left:300px solid transparent;
+        border-bottom:300px solid green;
+        margin-top:-300px;
+        position:relative;
+    }
+    .rectangulo
+    {
+        border:brown;
+        width: 50px;
+        height: 150px;
+        display:block;
+        background-color: brown;
+        border-left:50px solid brown;
+        position:absolute;
+        margin-top:300px;
+        margin-left:-50px;
+       
+
+      
+        }
+</style>
+<body>
+    <header>
+        <nav></nav>
+    </header>
+    <section>
+        <div class="triangulo">
+        <div class="rectangulo"></div>
+    </div>
+    </section>
+</body>
+</html>
