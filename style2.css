@@ -20,6 +20,6 @@ body{
 
 }
 @media (orientation: portrait){
-    .subtitle {color:aqua}
+    .subtitle {color:rgb(68, 177, 177)}
     /* .title{color:blueviolet} */
 }

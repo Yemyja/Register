@@ -1,0 +1,38 @@
+body,html{
+    height: 100vh;
+}
+body{
+    display:grid;
+    margin:0;
+    background-color: rgb(18, 109, 109);
+    color:aliceblue;
+  
+    grid-template-columns: 20% auto 20%;
+    grid-template-rows: 10%  auto 10%;
+   grid-template-areas: "header header header "
+                        "aside content sidebar"
+                        "aside footer footer"
+                   
+
+}
+header{
+    grid-area:header;
+    border: solid white;
+    
+    
+}
+aside{
+    grid-area:aside;
+    border: solid white;
+    
+}
+content{
+    grid-area: content;
+    border: solid white; 
+     
+}
+footer{
+    grid-area:footer;
+    border: solid white;
+    
+}
